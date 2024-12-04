@@ -1,0 +1,105 @@
+.gradient-background{
+    background: linear-gradient(243deg, #d1cece, #6596db, #98d6e4, #94aedb, #5f94ee, #babec4, #6976db, #371a54, #6e4199);
+    background-size: 1800% 1800%;
+	animation: gradient 25s ease infinite;
+	height: 75vh;    
+    
+}
+
+.rubik-h1 {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-size: 5.62rem;
+    font-style: normal;
+}
+
+@keyframes gradient {
+
+    0%{background-position:0% 50%}
+
+    50%{background-position:100% 51%}
+
+    100%{background-position:0% 50%}
+}
+
+@media (max-width: 680px) {
+    .logo {
+      width: 100px;
+    }
+
+  
+    h1 {
+      font-size: 3.5rem;
+      text-align: center;
+    }
+  
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: 30px;
+      text-align: justify;
+    }
+  
+    .card img {
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline;
+      object-fit: cover;
+    }
+  }
+  
+
+
+.titletop{
+ height: 100vh; /* Full viewport height */
+      margin: 0; /* Remove default margin */
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */    
+}
+     
+.pic-circ{
+    border-radius: 50%;
+}
+
+.parent{
+ display: grid;
+ grid-template-columns: 0.5fr 1fr;
+ grid-template-rows: (1, 1fr);
+ width:50%;
+ margin:100px auto 0 auto;
+ row-gap: 2rem;
+
+}
+
+body {
+    
+    margin: 0;
+    text-align: center;
+
+}
+
+h3{
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+.btn{
+    background-color: #eef1f1;;
+    background-image: linear-gradient(to bottom, #1124d4, #11999e);
+    padding: 10px 20px 10px 20px;
+    color: aliceblue;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: Rubik, serrif;
+    
+}
+
+.ftr{
+    background-color: #404040;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+}
